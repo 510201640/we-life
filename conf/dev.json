@@ -1,0 +1,32 @@
+{
+  "name": "we-life",
+  "namespace":"jaden",
+  "env": "dev",
+  "appId": "3",
+  "dingtalktoken":"",
+  "server": {
+    "port": "80",
+    "host": "0.0.0.0"
+  },
+
+  "redis": {
+    "addr": "47.116.0.11:6379",
+    "password": "",
+    "database": 0,
+    "maxActive": 50,
+    "idleTimeout": 60
+  },
+  "mysql": {
+    "db": {
+      "dialect": "mysql",
+      "host": "47.116.0.11",
+      "port": 3306,
+      "user": "root",
+      "password": "123456",
+      "database": "life",
+      "maxIdle": 20,
+      "maxOpen": 20
+    }
+  }
+
+}

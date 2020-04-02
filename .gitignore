@@ -1,0 +1,6 @@
+.idea/
+deploy_tmp/
+deploy/tmp/
+*.iml
+we-life
+/logs
